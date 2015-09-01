@@ -1,0 +1,9 @@
+Verified+2: Jenkins
+Code-Review+2: Lin Hua Cheng <os.lcheng@gmail.com>
+Code-Review+2: Travis Tripp <travis.tripp@hp.com>
+Workflow+1: Travis Tripp <travis.tripp@hp.com>
+Submitted-by: Jenkins
+Submitted-at: Tue, 01 Sep 2015 22:49:18 +0000
+Reviewed-on: https://review.openstack.org/212873
+Project: stackforge/xstatic-mdi
+Branch: refs/heads/master
