@@ -15,7 +15,7 @@ NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
                                # please use a all-lowercase valid python
                                # package name
 
-VERSION = '1.4.57' # version of the packaged files, please use the upstream
+VERSION = '1.6.50' # version of the packaged files, please use the upstream
                   # version number
 BUILD = '0' # our package build number, so we can release new builds
              # with fixes for xstatic stuff.
@@ -35,7 +35,7 @@ MAINTAINER_EMAIL = 'hurgleburgler@gmail.com'
 HOMEPAGE = 'http://materialdesignicons.com'
 
 # this refers to all files:
-LICENSE = '(same as %s)' % DISPLAY_NAME
+LICENSE = 'SIL OFL 1.1'
 
 from os.path import join, dirname
 BASE_DIR = join(dirname(__file__), 'data')
