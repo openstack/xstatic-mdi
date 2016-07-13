@@ -1,0 +1,11 @@
+Code-Review+2: Diana Whitten <hurgleburgler@gmail.com>
+Code-Review+2: Thai Tran <tqtran@us.ibm.com>
+Workflow+1: Thai Tran <tqtran@us.ibm.com>
+Code-Review+2: Timur Sufiev <tsufiev@mirantis.com>
+Workflow+1: Timur Sufiev <tsufiev@mirantis.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 13 Jul 2016 19:33:39 +0000
+Reviewed-on: https://review.openstack.org/334971
+Project: openstack/xstatic-mdi
+Branch: refs/heads/master
