@@ -17,7 +17,7 @@ NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
 
 VERSION = '1.6.50' # version of the packaged files, please use the upstream
                   # version number
-BUILD = '0' # our package build number, so we can release new builds
+BUILD = '1' # our package build number, so we can release new builds
              # with fixes for xstatic stuff.
 PACKAGE_VERSION = VERSION + '.' + BUILD # version used for PyPi
 
