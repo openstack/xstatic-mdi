@@ -1,17 +1,25 @@
 from setuptools import setup, find_packages
+from xstatic.pkg import mdi as xs
 
 # The README.txt file should be written in reST so that PyPI can use
 # it to generate your project's PyPI page.
 long_description = open('README.txt').read()
 
 setup(
-    name='XStatic-mdi',
-    description="""mdi 1.6.50 (XStatic packaging standard)""",
+    name=xs.PACKAGE_NAME,
+    version=xs.PACKAGE_VERSION,
+    description=xs.DESCRIPTION,
     long_description=long_description,
-    maintainer="Diana Whitten",
-    maintainer_email='hurgleburgler@gmail.com',
-    use_scm_version=True,
-    setup_requires=['setuptools_scm', 'wheel'],
+    classifiers=xs.CLASSIFIERS,
+    keywords=xs.KEYWORDS,
+    maintainer=xs.MAINTAINER,
+    maintainer_email=xs.MAINTAINER_EMAIL,
+    license=xs.LICENSE,
+    url=xs.HOMEPAGE,
+    platforms=xs.PLATFORMS,
     packages=find_packages(),
-    include_package_data=True
+    namespace_packages=['xstatic', 'xstatic.pkg'],
+    include_package_data=True,
+    zip_safe=False,
+    install_requires=[],
 )

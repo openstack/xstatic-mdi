@@ -28,8 +28,8 @@ CLASSIFIERS = []
 KEYWORDS = 'material design icons webfont mdi xstatic'
 
 # XStatic-* package maintainer:
-MAINTAINER = 'Diana Whitten'
-MAINTAINER_EMAIL = 'hurgleburgler@gmail.com'
+MAINTAINER = 'Rob Cresswell'
+MAINTAINER_EMAIL = 'robert.cresswell@outlook.com'
 
 # this refers to the project homepage of the stuff we packaged:
 HOMEPAGE = 'http://materialdesignicons.com'
