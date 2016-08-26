@@ -6,8 +6,8 @@ long_description = open('README.txt').read()
 
 setup(
     name='XStatic-mdi',
-    summary="""mdi 1.4.57 (XStatic packaging standard)""",
-    description=long_description,
+    description="""mdi 1.6.50 (XStatic packaging standard)""",
+    long_description=long_description,
     maintainer="Diana Whitten",
     maintainer_email='hurgleburgler@gmail.com',
     use_scm_version=True,
